@@ -22,8 +22,8 @@
 ---
 
 ### 🌐 Connect with Me
-<a href="https://www.linkedin.com/in//" target="_blank"><img src="https://img.shields.io/badge/-abdelrhman-beaih-style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdobeaih43@gmail.com)
+
+<a href="https://www.linkedin.com/in/abdelrhman-beaih/" target="_blank"><img src="https://img.shields.io/badge/-Abdelrhman%20Beaih-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdobeaih43@gmail.com)
 [![Whatsapp](https://img.shields.io/badge/-Whatsapp-075e54?style=for-the-badge&logo=Whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=201142628174)
 
 ---
@@ -47,8 +47,4 @@
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eslamshaban060&show_icons=true&theme=radical" alt="GitHub Stats" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=eslamshaban060&theme=radical" alt="GitHub Streak" width="48%">
-</p>
+
