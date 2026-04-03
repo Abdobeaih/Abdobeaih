@@ -99,8 +99,19 @@ document.getElementById('clearEmployeesBtn').addEventListener('click', function(
 });
 
 /**
+ * Event Listener for Login
+ */
+document.getElementById('loginBtn').addEventListener('click', function() {
+    document.getElementById('loginSection').classList.add('hidden');
+    document.getElementById('mainApp').classList.remove('hidden');
+});
+
+/**
  * Event Listener for Logout
  */
 document.getElementById('logoutBtn').addEventListener('click', function() {
-    alert('Logging out...');
+    document.getElementById('loginSection').classList.remove('hidden');
+    document.getElementById('mainApp').classList.add('hidden');
+    document.getElementById('username').value = '';
+    document.getElementById('password').value = '';
 });
