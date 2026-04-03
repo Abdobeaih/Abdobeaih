@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salary App</title>
+    <title>Salary App - Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- Login Section -->
+    <div id="loginSection" class="login-container">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-blue">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- App Section (Hidden by default) -->
+    <div id="appSection" class="container" style="display: none;">
         <header>
             <h1>Salary App</h1>
             <button id="logoutBtn" class="logout-btn">Logout</button>

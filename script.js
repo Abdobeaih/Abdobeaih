@@ -17,6 +17,42 @@ const CONFIG = {
 };
 
 /**
+ * Login Functionality
+ */
+const loginForm = document.getElementById('loginForm');
+const loginSection = document.getElementById('loginSection');
+const appSection = document.getElementById('appSection');
+
+loginForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Simple validation (can be replaced with actual auth logic)
+    if (username && password) {
+        loginSection.style.display = 'none';
+        appSection.style.display = 'block';
+        // Reset body alignment if needed
+        document.body.style.alignItems = 'flex-start';
+    } else {
+        alert('Please enter both username and password');
+    }
+});
+
+/**
+ * Logout Functionality
+ */
+document.getElementById('logoutBtn').addEventListener('click', function() {
+    appSection.style.display = 'none';
+    loginSection.style.display = 'flex';
+    document.body.style.alignItems = 'center';
+
+    // Clear inputs
+    document.getElementById('username').value = '';
+    document.getElementById('password').value = '';
+});
+
+/**
  * Event Listener for adding an employee
  */
 document.getElementById('addEmployeeBtn').addEventListener('click', function() {
@@ -96,11 +132,4 @@ function addEmployeeToTable(data) {
  */
 document.getElementById('clearEmployeesBtn').addEventListener('click', function() {
     document.querySelector('#salaryTable tbody').innerHTML = '';
-});
-
-/**
- * Event Listener for Logout
- */
-document.getElementById('logoutBtn').addEventListener('click', function() {
-    alert('Logging out...');
 });
