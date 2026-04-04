@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-white/90 antialiased selection:bg-primary/30;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold text-white tracking-tight;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.08];
+  }
+
+  .glass-card {
+    @apply glass rounded-3xl p-6 shadow-2xl transition-all duration-300 hover:border-white/20 hover:bg-white/[0.05];
+  }
+
+  .btn-primary {
+    @apply px-8 py-3 bg-primary text-white rounded-full font-semibold hover:bg-primary/90 transition-all active:scale-95 flex items-center justify-center gap-2 shadow-lg shadow-primary/20;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-3 glass text-white rounded-full font-semibold hover:bg-white/10 transition-all active:scale-95 flex items-center justify-center gap-2;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-white via-white to-white/40 bg-clip-text text-transparent;
+  }
+
+  .accent-gradient-text {
+    @apply bg-gradient-to-r from-primary-light to-primary-dark bg-clip-text text-transparent;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20;
+}
