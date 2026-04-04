@@ -69,6 +69,44 @@
                 </tbody>
             </table>
         </div>
+
+        <hr class="section-divider">
+
+        <div class="tasks-container">
+            <section class="counter-section">
+                <h2>Counter</h2>
+                <div class="counter-display" id="counterValue">0</div>
+                <div class="counter-controls">
+                    <button id="decrementBtn" class="btn btn-red">-</button>
+                    <button id="resetBtn" class="btn">Reset</button>
+                    <button id="incrementBtn" class="btn btn-blue">+</button>
+                </div>
+            </section>
+
+            <hr class="section-divider">
+
+            <section class="form-section">
+                <h2>Controlled Input Form</h2>
+                <div class="form-wrapper">
+                    <div class="input-row">
+                        <input type="text" id="formName" placeholder="Name">
+                    </div>
+                    <div class="input-row">
+                        <input type="email" id="formEmail" placeholder="Email">
+                    </div>
+                    <div class="input-row">
+                        <textarea id="formMessage" placeholder="Message" rows="4"></textarea>
+                    </div>
+                    <div class="char-counter">
+                        <span id="charCount">0</span>/140 characters
+                    </div>
+                    <div id="formStateDisplay" class="state-preview">
+                        <strong>Current State:</strong>
+                        <pre id="stateOutput">{}</pre>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
