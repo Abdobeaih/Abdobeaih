@@ -104,3 +104,100 @@ document.getElementById('clearEmployeesBtn').addEventListener('click', function(
 document.getElementById('logoutBtn').addEventListener('click', function() {
     alert('Logging out...');
 });
+
+/**
+ * Counter Logic
+ */
+let counterState = 0;
+
+function updateCounterUI() {
+    const counterValue = document.getElementById('counterValue');
+    const incrementBtn = document.getElementById('incrementBtn');
+    const decrementBtn = document.getElementById('decrementBtn');
+
+    counterValue.textContent = counterState;
+    decrementBtn.disabled = counterState <= 0;
+    incrementBtn.disabled = counterState >= 10;
+}
+
+function setCounter(updateFn) {
+    if (typeof updateFn === 'function') {
+        counterState = updateFn(counterState);
+    } else {
+        counterState = updateFn;
+    }
+    updateCounterUI();
+}
+
+document.getElementById('incrementBtn').addEventListener('click', () => {
+    setCounter(prev => prev + 1);
+});
+
+document.getElementById('decrementBtn').addEventListener('click', () => {
+    setCounter(prev => prev - 1);
+});
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+    setCounter(0);
+});
+
+// Initialize counter UI
+updateCounterUI();
+
+/**
+ * Controlled Form Logic
+ */
+let formState = {
+    name: '',
+    email: '',
+    message: ''
+};
+
+function updateFormUI() {
+    const nameInput = document.getElementById('formName');
+    const emailInput = document.getElementById('formEmail');
+    const messageInput = document.getElementById('formMessage');
+    const charCount = document.getElementById('charCount');
+    const stateOutput = document.getElementById('stateOutput');
+
+    // Update inputs to match state
+    nameInput.value = formState.name;
+    emailInput.value = formState.email;
+    messageInput.value = formState.message;
+
+    // Update character count
+    const length = formState.message.length;
+    charCount.textContent = length;
+    if (length > 140) {
+        charCount.parentElement.classList.add('limit-exceeded');
+    } else {
+        charCount.parentElement.classList.remove('limit-exceeded');
+    }
+
+    // Update state preview
+    stateOutput.textContent = JSON.stringify(formState, null, 2);
+}
+
+function setFormState(updateFn) {
+    if (typeof updateFn === 'function') {
+        formState = updateFn(formState);
+    } else {
+        formState = { ...formState, ...updateFn };
+    }
+    updateFormUI();
+}
+
+document.getElementById('formName').addEventListener('input', (e) => {
+    setFormState({ name: e.target.value });
+});
+
+document.getElementById('formEmail').addEventListener('input', (e) => {
+    setFormState({ email: e.target.value });
+});
+
+document.getElementById('formMessage').addEventListener('input', (e) => {
+    setFormState({ message: e.target.value });
+});
+
+// Initialize form UI
+updateFormUI();

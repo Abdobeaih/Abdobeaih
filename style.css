@@ -106,3 +106,88 @@ th, td {
 tbody tr:nth-child(even) {
     background-color: #f8f9fa;
 }
+
+/* Tasks Styles */
+.section-divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.counter-section, .form-section {
+    text-align: center;
+}
+
+.counter-display {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.counter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-wrapper .input-row {
+    margin-bottom: 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.char-counter {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: right;
+}
+
+.char-counter.limit-exceeded {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.state-preview {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    margin-top: 10px;
+}
+
+.state-preview pre {
+    margin: 10px 0 0 0;
+    font-size: 0.9rem;
+    color: #333;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
