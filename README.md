@@ -56,8 +56,6 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
 
 [![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdobeaih&theme=github-compact&hide_border=true&bg_color=0d1117&color=5CCB7A&line=5CCB7A&point=ffffff)](https://github.com/Abdobeaih)
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Abdobeaih&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6)](https://github.com/Abdobeaih)
-
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:5CCB7A,100:0d1117&height=3" alt=""/>
