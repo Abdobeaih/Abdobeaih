@@ -26,7 +26,13 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
 
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,nestjs,express,mongodb,redux,tailwind,html,css,git,github,vscode,postman&perline=8)](https://github.com/Abdobeaih)
+**Core**
+
+[![Core skills](https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,nestjs,express,mongodb&theme=dark)](https://github.com/Abdobeaih)
+
+**State, styling and tooling**
+
+[![Tooling skills](https://skillicons.dev/icons?i=redux,zustand,tailwind,html,css,threejs,vite,npm,git,github,githubactions,vercel,vscode,postman&theme=dark&perline=7)](https://github.com/Abdobeaih)
 
 </div>
 
@@ -34,14 +40,52 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
 
 ## Featured projects
 
-| Project | What it is | Stack | Links |
-| --- | --- | --- | --- |
-| **Nawy Orders** | Production SaaS ordering platform (team work at SpecTech) | React · Node.js · Express · MongoDB | [Live](https://www.nawyorders.com/en) |
-| **Mobile Car Care** | Full-stack booking app for mobile car care services | Next.js · NestJS · MongoDB · TypeScript | [Live](https://car-wash-fronend.vercel.app) · [Code](https://github.com/Abdobeaih/Car-Wash) |
-| **Mustakileen** | Bilingual freelance-services platform shipped for a real client | React · Express · MongoDB · Zustand | [Live](https://frontend-project-ed-xrvo.vercel.app) · [Code](https://github.com/Abdobeaih/mustakileen) |
-| **Karam El Sham** | Restaurant app with dynamic menu, cart, search and filters | React 19 · Redux Toolkit · Tailwind | [Live](https://karam-el-sham-restaurant-sigma.vercel.app) · [Code](https://github.com/Abdobeaih/karam-el-sham) |
-| **TaskFlow** | Task manager with statuses, priorities, projects and tags | React 19 · TypeScript · Material UI | [Live](https://todo-list-react-2jmz.vercel.app) · [Code](https://github.com/Abdobeaih/TodoListReact) |
-| **My portfolio** | Interactive 8-station journey-map portfolio, EN/AR | React · TypeScript · Three.js · Vite | [Live](https://abdelrahman-beaih-portfolio.vercel.app) · [Code](https://github.com/Abdobeaih/Abdelrahman-Beaih-Portfolio) |
+<div align="center">
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://www.nawyorders.com/en"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/nawy-orders.jpg" alt="Nawy Orders"/></a>
+      <b>Nawy Orders</b> — production SaaS ordering platform (team work at SpecTech)<br/>
+      <code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code><br/>
+      <a href="https://www.nawyorders.com/en">Live</a>
+    </td>
+    <td width="50%">
+      <a href="https://car-wash-fronend.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/mobile-carcare.jpg" alt="Mobile Car Care"/></a>
+      <b>Mobile Car Care</b> — full-stack booking app for mobile car care<br/>
+      <code>Next.js</code> <code>NestJS</code> <code>TypeScript</code> <code>MongoDB</code><br/>
+      <a href="https://car-wash-fronend.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/Car-Wash">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://frontend-project-ed-xrvo.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/mustakileen-freelancer360.jpg" alt="Mustakileen"/></a>
+      <b>Mustakileen</b> — bilingual freelance-services platform, shipped for a client<br/>
+      <code>React</code> <code>Express</code> <code>MongoDB</code> <code>Zustand</code><br/>
+      <a href="https://frontend-project-ed-xrvo.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/mustakileen">Code</a>
+    </td>
+    <td width="50%">
+      <a href="https://karam-el-sham-restaurant-sigma.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/karam-el-sham.jpg" alt="Karam El Sham"/></a>
+      <b>Karam El Sham</b> — restaurant app: dynamic menu, cart, search and filters<br/>
+      <code>React 19</code> <code>Redux Toolkit</code> <code>Tailwind</code><br/>
+      <a href="https://karam-el-sham-restaurant-sigma.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/karam-el-sham">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://todo-list-react-2jmz.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/todo-list.jpg" alt="TaskFlow"/></a>
+      <b>TaskFlow</b> — task manager: statuses, priorities, projects and tags<br/>
+      <code>React 19</code> <code>TypeScript</code> <code>Material UI</code><br/>
+      <a href="https://todo-list-react-2jmz.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/TodoListReact">Code</a>
+    </td>
+    <td width="50%">
+      <a href="https://abdelrahman-beaih-portfolio.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/Desktop_-_15.webp" alt="Portfolio"/></a>
+      <b>My portfolio</b> — interactive 8-station journey-map portfolio, EN/AR<br/>
+      <code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>Vite</code><br/>
+      <a href="https://abdelrahman-beaih-portfolio.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/Abdelrahman-Beaih-Portfolio">Code</a>
+    </td>
+  </tr>
+</table>
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:5CCB7A,100:0d1117&height=3" alt=""/>
 
