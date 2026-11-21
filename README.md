@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:14532d&height=200&section=header&text=Abdelrahman%20Beaih&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20MERN%20Developer%20%E2%80%94%20React%20%C2%B7%20Node.js%20%C2%B7%20TypeScript%20%C2%B7%20MongoDB&descSize=18&descAlignY=58&descColor=5CCB7A" alt="Abdelrahman Beaih — Full-Stack MERN Developer"/>
+<img width="100%" src="https://raw.githubusercontent.com/Abdobeaih/Abdobeaih/main/assets/banner.svg" alt="Abdelrahman Beaih — Full-Stack MERN Developer"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5CCB7A&center=true&vCenter=true&width=520&lines=Full-Stack+MERN+Developer;React+%C2%B7+Next.js+%C2%B7+NestJS;Bilingual+EN%2FAR+%2B+RTL+interfaces;Shipping+production+SaaS+at+SpecTech)](https://github.com/Abdobeaih)
 
@@ -24,6 +24,14 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
 - Open to full-time MERN / front-end roles — Cairo, on-site or remote
 
 <br clear="right"/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:5CCB7A,100:0d1117&height=3" alt=""/>
+
+## Right now
+
+- Shipping features on **Nawy Orders**, a production SaaS platform, with the team at SpecTech
+- Freelancing on full-stack client platforms (bilingual EN/AR)
+- Leveling up toward **international remote roles** — deepening NestJS, system design and English every day
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:5CCB7A,100:0d1117&height=3" alt=""/>
 
@@ -125,7 +133,11 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
 
 </div>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:5CCB7A,100:0d1117&height=3" alt=""/>
+
 <div align="center">
+
+[![Dev quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/Abdobeaih)
 
 <i>Open to full-time MERN / front-end roles. The fastest way to reach me is <a href="https://www.linkedin.com/in/abdelrahman-beaih">LinkedIn</a> or <a href="mailto:abdobeaih43@gmail.com">email</a>.</i><br/>
 <i>If something here caught your eye, a follow or a star on a repo you like means a lot. Curious about my year in code? <a href="https://skyline.github.com/Abdobeaih">See it in 3D</a>.</i>
