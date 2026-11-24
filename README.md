@@ -85,13 +85,13 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://todo-list-react-2jmz.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/todo-list.jpg" alt="TaskFlow"/></a>
+      <a href="https://todo-list-react-2jmz.vercel.app"><img width="100%" src="https://raw.githubusercontent.com/Abdobeaih/Abdobeaih/main/assets/taskflow.svg" alt="TaskFlow"/></a>
       <b>TaskFlow</b> — task manager: statuses, priorities, projects and tags<br/>
       <code>React 19</code> <code>TypeScript</code> <code>Material UI</code><br/>
       <a href="https://todo-list-react-2jmz.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/TodoListReact">Code</a>
     </td>
     <td width="50%">
-      <a href="https://abdelrahman-beaih-portfolio.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/Desktop_-_15.webp" alt="Portfolio"/></a>
+      <a href="https://abdelrahman-beaih-portfolio.vercel.app"><img width="100%" src="https://raw.githubusercontent.com/Abdobeaih/Abdobeaih/main/assets/portfolio.svg" alt="Portfolio"/></a>
       <b>My portfolio</b> — interactive 8-station journey-map portfolio, EN/AR<br/>
       <code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>Vite</code><br/>
       <a href="https://abdelrahman-beaih-portfolio.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/Abdelrahman-Beaih-Portfolio">Code</a>
