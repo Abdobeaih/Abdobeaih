@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/Abdobeaih/Abdobeaih/main/assets/banner.svg" alt="Abdelrahman Beaih — Full-Stack MERN Developer"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5CCB7A&center=true&vCenter=true&width=520&lines=Full-Stack+MERN+Developer;React+%C2%B7+Next.js+%C2%B7+NestJS;Bilingual+EN%2FAR+%2B+RTL+interfaces;Shipping+production+SaaS+at+SpecTech)](https://github.com/Abdobeaih)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5CCB7A&center=true&vCenter=true&width=520&lines=Full-Stack+MERN+Developer;React+%C2%B7+Next.js+%C2%B7+NestJS;Bilingual+EN%2FAR+%2B+RTL+interfaces;Shipping+production+SaaS+at+SpaceTech)](https://github.com/Abdobeaih)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-abdelrahman--beaih--portfolio.vercel.app-5CCB7A?logo=vercel&logoColor=white)](https://abdelrahman-beaih-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fabdelrahman--beaih-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelrahman-beaih)
@@ -16,7 +16,7 @@
 
 ## About me
 
-Full-stack developer from Egypt, building production web apps with the MERN stack. Currently a full-stack developer at **SpecTech**, working on **Nawy Orders**, a live SaaS ordering platform. I also freelance — recent client work includes a bilingual freelance-services platform and a full-stack mobile car care booking app. I care about clean UI, bilingual (English/Arabic, RTL) experiences, and code that survives production.
+Full-stack developer from Egypt, building production web apps with the MERN stack. Currently a full-stack developer at **SpaceTech**, working on **Nawy Orders**, a live SaaS ordering platform. I also freelance — recent client work includes a bilingual freelance-services platform and a full-stack mobile car care booking app. I care about clean UI, bilingual (English/Arabic, RTL) experiences, and code that survives production.
 
 - Working daily in **React, Next.js, Node.js, NestJS, TypeScript and MongoDB**
 - Experienced with **Redux Toolkit, Zustand, Tailwind CSS** and REST API design
@@ -29,7 +29,7 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
 
 ## Right now
 
-- Shipping features on **Nawy Orders**, a production SaaS platform, with the team at SpecTech
+- Shipping features on **Nawy Orders**, a production SaaS platform, with the team at SpaceTech
 - Freelancing on full-stack client platforms (bilingual EN/AR)
 - Leveling up toward **international remote roles** — deepening NestJS, system design and English every day
 
@@ -63,10 +63,10 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
       <a href="https://www.nawyorders.com/en">Live</a>
     </td>
     <td width="50%">
-      <a href="https://car-wash-fronend.vercel.app"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/mobile-carcare.jpg" alt="Mobile Car Care"/></a>
-      <b>Mobile Car Care</b> — full-stack booking app for mobile car care<br/>
+      <a href="https://mobilecarcare.vercel.app"><img width="100%" src="https://raw.githubusercontent.com/Abdobeaih/Abdobeaih/main/assets/mobile-carcare.svg" alt="Mobile Car Care"/></a>
+      <b>Mobile Car Care</b> — car-wash booking and management system: online booking, admin dashboard and analytics, EN/AR<br/>
       <code>Next.js</code> <code>NestJS</code> <code>TypeScript</code> <code>MongoDB</code><br/>
-      <a href="https://car-wash-fronend.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/Car-Wash">Code</a>
+      <a href="https://mobilecarcare.vercel.app">Live</a> · <a href="https://github.com/Abdobeaih/Car-Wash">Code</a>
     </td>
   </tr>
   <tr>
