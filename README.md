@@ -58,7 +58,7 @@ Full-stack developer from Egypt, building production web apps with the MERN stac
   <tr>
     <td width="50%">
       <a href="https://www.nawyorders.com/en"><img width="100%" src="https://abdelrahman-beaih-portfolio.vercel.app/nawy-orders.jpg" alt="Nawy Orders"/></a>
-      <b>Nawy Orders</b> — production SaaS ordering platform (team work at SpecTech)<br/>
+      <b>Nawy Orders</b> — production SaaS ordering platform (team work at SpaceTech)<br/>
       <code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code><br/>
       <a href="https://www.nawyorders.com/en">Live</a>
     </td>
